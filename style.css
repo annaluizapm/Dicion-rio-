@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F2AED4;
+}
+
+header {
+    height: 10vh;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: rgb(148,191,233);
+    font-size: 20px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.nome {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+section{
+    display: block; 
+}
+
+.Texto {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.dicionario{
+    font-family: 'Kalnia', serif;
+    margin-left: 370px;
+    margin-top: 40px;
+}
+
+.Dialogo {
+    background-color: rgb(199,182,226); 
+    margin-top: 25px;
+    height: 25px;
+    width: 200vh;
+    margin-left: 15px;
+}
+
+.bi{
+ margin-left: 190vh;
+ margin-top: 5px;
+}
+
+#frase {
+   margin-top: 50px;
+   margin-left: 20px;
+   font-family: 'Kalnia', serif;
+}
+
+.Dialogo_section {
+    display: block;
+    justify-content: center;
+    background-color: rgb(199,182,226); 
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.Dialogo_section>p{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Bloco_dialogo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40vh;
+    background-color: rgb(199,182,226); 
+    width: 60vw;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+.modal{
+    background-color: rgb(255,240,192);
+    height: 230px;
+    width: 280px;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal>span>img{
+    height: 13px;
+    width: 13x;
+}
+
+.modal>.love-iconA{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal>.love-iconA>img{
+    height: 20px;
+    width: 30px;
+}
+
+.modal>#ing{
+    font-size: 13px;
+    padding-top: 4px;
+    text-align: right;
+}
+
+.modal>.port{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal>.port>img{
+    height: 20px;
+    width: 30px;
+}
+
+.modal>#port{
+    font-size: 13px;
+    padding-top: 4px;
+    text-align: right;
+}
